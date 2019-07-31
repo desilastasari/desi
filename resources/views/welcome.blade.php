@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    welcome
+                    Desi Lastasari
                 </div>
 
                 <div class="links">
