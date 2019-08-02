@@ -39,13 +39,16 @@
                 @else
 
                  <li class="nav-item">
-                                 <a class="nav-link" href=" /menu1">menu1</a>
+                                 <a class="nav-link" href=" /menu1">menu(diwajibkan AUTH ROLE SUPER ADMIN</a>
                 </li>
                  <li class="nav-item">
-                                <a class="nav-link" href=" /menu2">menu2</a>
+                                <a class="nav-link" href=" /menu2">menu(diwajibkan AUTH ROLE ADMIN</a>
                 </li>
                  <li class="nav-item">
-                                <a class="nav-link" href=" /menu3">menu3</a>
+                                <a class="nav-link" href=" /menu3">menu(diwajibkan AUTH ROLE USER </a>
+                </li>
+                <li class="nav-item">
+                                <a class="nav-link" href=" /menu4">menu(diwajibkan AUTH GLOBAL ROLE </a>
                 </li>
             
                 @endguest
