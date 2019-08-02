@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    selamat datang
+                    <b> {{ Auth::user()->name }}</b> selamat datang
                 </div>
             </div>
         </div>
