@@ -37,6 +37,7 @@
 
                      @guest
                 @else
+                @role('admin')
 
                  <li class="nav-item">
                                  <a class="nav-link" href=" /menu1">menu(diwajibkan AUTH ROLE SUPER ADMIN</a>
@@ -50,6 +51,7 @@
                 <li class="nav-item">
                                 <a class="nav-link" href=" /menu4">menu(diwajibkan AUTH GLOBAL ROLE </a>
                 </li>
+                @endrole
             
                 @endguest
                 

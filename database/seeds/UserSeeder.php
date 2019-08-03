@@ -28,13 +28,13 @@ class UserSeeder extends Seeder
         $admin->email = "admin@gmail.com";
         $admin->password =bcrypt ('rahasia');
         $admin->save();
-        $admin->attcahRole($adminRole);
+        $admin->attachRole($adminRole);
 
         $member = new User ();
         $member->name = "member";
         $member->email = "member@gmail.com";
         $member->password =bcrypt ('rahasia');
         $member->save();
-        $member->attcahRole($memberRole);
+        $member->attachRole($memberRole);
     }
 }
